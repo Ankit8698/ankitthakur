@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Ankit</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+    <!-- Fonts (google font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&amp;family=Urbanist:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Magnific-popup stylesheet -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Owl Carousel stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- Owl theme stylesheet -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Animated headline stylesheet -->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+    <!-- MeanMenu stylesheet -->
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <!-- Imgal stylesheet -->
+    <link rel="stylesheet" href="css/imgal.min.css">
+    <!-- font awesome stylesheet -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- AOS stylesheet -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+             <style>
+        .one_third{
+            margin-bottom: 40px !important;
+        }
+
+        .phone {
+        width: 345px;
+        height: 540px;
+        background: #000;
+        border: 16px solid #333;
+        border-radius: 36px;
+        position: relative;
+        margin: 20px auto;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        .phone::before {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 5px;
+        background: #666;
+        border-radius: 10px;
+        }
+
+        .screen {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        background-color: #222;
+        background-size: cover;
+        background-position: top;
+        transition: background-position 3s ease;
+        cursor: pointer;
+        }
+
+        .phone:hover .screen {
+        background-position: bottom;
+        }
+        
+.box-container {
+  padding: 0.5rem 0.5rem;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: white;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.box-container:nth-child(1),
+.box-container:nth-child(2),
+.box-container:nth-child(3) {
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+.box-container img {
+  border-radius: 10px;
+}
+
+.box-container img:hover {
+  transform: scale(1.02);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.load-more-btn {
+  display: block;
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more-btn button {
+  /* padding: 1rem 1rem; */
+  width: auto;
+  color: white;
+  background-color: #727272;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more-btn button:hover {
+  background-color: black;
+}
+
+.load-more-btn button:active {
+  background-color: orange;
+}
+
+/* @media (max-width: 500px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem 0.5rem;
+  }
+} */
+</style>
+</head>
+
+<body class="home-one-body">
+    <main class="home overflow-x-hidden">
+        <!-- start header -->
+        <header class="bg-white header">
+            <!-- mobile header nav -->
+            <div class="mobile-menu d-block d-md-none">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#home">HOME</a>
+                        </li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <!-- <li><a href="#services">SERVICES</a>
+                        </li> -->
+                        <li><a href="#resume">RESUME</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a>
+                        </li>
+                      
+                        <li><a href="#contact">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container d-none d-md-block">
+                <div class="header-wrapper d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <a href="index.php">
+                            <img src="assets/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header-menu-wrapper main-menu">
+                        <!-- nav menu -->
+                        <nav class="desktop-nav">
+                            <ul class="header-menu d-flex flex-row justify-content-center menu">
+                                <li class="px-2 px-lg-3 ">
+                                    <a class="menu-link" href="#home">HOME</a>
+                                </li>
+                                <li class="px-2 px-lg-3 ">
+                                    <a class="menu-link" href="#about">ABOUT</a>
+                                </li>
+                                <li class="px-2 px-lg-3 ">
+                                    <a class="menu-link" href="#resume">RESUME</a>
+                                </li>
+                                  <li class="px-2 px-lg-3 ">
+                                    <a class="menu-link" href="#portfolio">PORTFOLIO</a>
+                                </li>
+                                <li class="px-2 px-lg-3 ">
+                                    <a class="menu-link" href="#contact">CONTACT US</a>
+                                </li>
+                                
+                               
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- header button -->
+                    <div class="header-btn-wrapper">
+                        <a class="btn orange-btn btn_effect" href="#contact">
+                            <span class="z-1 position-relative">Contact us</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <!-- start banner -->
+        <section class="home-banner position-relative">
+            <div class="container-fluid custom-container">
+                <div class="row">
+                    <div class="col-12" style='padding:120px 0px'>
+                        <div class="home-banner-wrapper row align-items-center justify-content-center">
+                            <div class="col-12 col-lg-8 col-xl-8  home-banner-text-col position-relative text-center">
+                                <!-- <div class="sub-heading d-flex align-items-center">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>I AM DESIGNER</p>
+                                </div> -->
+                                <div class="animate-heading">
+                                    <h1 class="black-color h1 home-one-title ah-headline text-uppercase">CREATING WEB APPLICATIONS
+                                        THAT DELIVER <br>
+                                        <span
+                                        class="orange-color">
+                                        <span class="ah-words-wrapper"> 
+                                            <b class="is-visible"> PERFORMANCE</b>
+                                            <b>QUALITY</b>
+                                            <b>SCALABILITY</b>
+                                            <b>SECURITY</b>
+                                        </span></span> 
+                                        <br>
+                                    </h1>
+                                </div>
+                                <p class="h5 line-height-7 mt-20 secondary-black fw-400">
+                                    I'm Ankit Thakur, a Full Stack Web Developer with 4+ years of experience building responsive websites and custom web applications using PHP, CodeIgniter, MySQL, JavaScript, WordPress, HTML, and CSS. I enjoy developing clean, scalable, and user-friendly solutions while continuously learning modern technologies such as Laravel and React.
+                                </p>
+                                <a class="btn_effect btn home-banner-btn orange-btn mt-50" href="resume.html"><span
+                                        class="z-1 position-relative">Download My CV</span>
+                                </a>
+                                <div class="banner-particle-one-container">
+                                    <img class="position-absolute banner-particle-one d-none d-lg-inline"
+                                        src="img/particleOne.png" alt="banner particle one">
+                                </div>
+                                <div class="banner-particle-two-container">
+                                    <img class="position-absolute banner-particle-two delay-one"
+                                        src="img/particleTwo.png" alt="banner particle two">
+                                </div>
+                            </div>
+                            <!-- <div class="col-12 col-lg-6 col-xl-5 text-center position-relative home-banner-img-col">
+                                <div class="banner-particle-one-container">
+                                    <img class="position-absolute banner-particle-one d-lg-none"
+                                        src="img/particleOne.png" alt="banner particle one">
+                                </div>
+
+                                <img class="position-absolute home-banner-shape bg-move-3d"
+                                    src="img/homeNannerShape.png" alt="banner-shape">
+                                <img class="img-fluid position-relative z-index-10 home-banner-img"
+                                    src="img/bannerImg.png" alt="banner-image">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end home-banner -->
+
+        <!-- start about me -->
+        <section class="about" id='about'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row align-items-center">
+                            <div class="about-image-col col-12 col-lg-6 ">
+                                <div class="img-overlay mx-auto mx-lg-0">
+                                    <img class="img-fluid" src="img/about/2.jpg" alt="about image" width='90%'>
+                                </div>
+                            </div>
+                            <div class="about-text-col col-12 col-lg-6">
+                                <div class="about-text-top">
+                                    <div class="section-heading">
+                                        <div class="sub-heading d-flex align-items-center">
+                                            <img src="img/orangeDot.png" alt="orange-dot">
+                                            <p>Who I Am</p>
+                                        </div>
+                                        <h2 class="black-color line-height-3 h2 text-uppercase">
+                                            I Can Design Anything You Want
+                                        </h2>
+                                    </div>
+                                    <p class="secondary-black line-height-7 mt-20">
+                                       Hello! I'm Ankit, a passionate Full Stack Web Developer with over 4 years of experience creating professional websites and custom web applications.
+                                        </p>
+                                        <p class="secondary-black line-height-7 mt-20">
+                                        I specialize in building fast, secure, and scalable websites using modern web technologies. Whether it's a business website, eCommerce store, admin dashboard, or custom CRM, I focus on delivering clean code and exceptional user experiences.
+                                    </p>
+                                </div>
+                                <div class="row row-mobile-margin gy-3 gy-sm-0 mt-50">
+                                    <div class="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
+                                        <div class="mr-10">
+                                            <img src="img/aboutIconOne.png" alt="about icon one">
+                                        </div>
+                                        <div class="about-complete-project">
+                                            <h4 class="fw-700 orange-color h4">20+
+                                                 <!-- <span class="counter">20</span>+ -->
+                                        </h4>
+                                            <h4 class="fw-500 black-color h4">Completed Project</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
+                                        <div class="mr-10">
+                                            <img src="img/aboutIconTwo.png" alt="about icon two">
+                                        </div>
+                                        <div class="about-years-experience">
+                                            <h4 class="fw-700 orange-color h4">4+
+                                                <!-- <span class="counter">4</span>+ -->
+                                            </h4>
+                                            <h4 class="fw-500 black-color h4">Years of experience</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1500"
+                                    class="row flex-column row-mobile-margin mt-50">
+                                    <div class="col-12 mb-0 mb-20 ">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="mb-20 d-flex align-items-center">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>Work simple and cline design</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="mb-20 d-flex align-items-center">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>Web Design Full stack</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="d-flex align-items-center mb-20">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>New idea and user friendly design</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-sm-6 col-lg-6">
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-regular fa-square-check mr-10 h6 orange-color"></i>
+                                                    <p>Unlimited Revisions</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <a data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
+                                    class="btn btn_effect home-banner-btn orange-btn mt-50" href="resume.html"><span
+                                        class="position-relative z-1">Download My CV</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end about me -->
+        <!-- start services -->
+        <!-- <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading-middle">
+                            <div class="sub-heading d-flex align-items-center mx-auto">
+                                <img src="img/orangeDot.png" alt="orange-dot">
+                                <p>My Service</p>
+                            </div>
+                            <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                Services I offer
+                            </h2>
+                        </div>
+                        <div class="service-grid-container mt-50 row-mobile-margin">
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceOne.png" alt="service-img-one">
+                                <h3 class="h3 fw-500 service-item-heading black-color">UI/UX Design</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceTwo.png" alt="service-img-two">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Mobile App</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceThree.png" alt="service-img-three">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Graphic Design</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceFour.png" alt="service-img-four">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Web Developer</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceFive.png" alt="service-img-five">
+                                <h3 class="h3 fw-500 service-item-heading black-color">SEO Optimisation</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceSix.png" alt="service-img-six">
+                                <h3 class="h3 fw-500 service-item-heading black-color">WordPress Developer</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceSeven.png" alt="service-img-seven">
+                                <h3 class="h3 fw-500 service-item-heading black-color">App Development</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                            <div class="service-grid-item text-center">
+                                <img class="service-item-img" src="img/serviceEight.png" alt="service-img-eight">
+                                <h3 class="h3 fw-500 service-item-heading black-color">Business Strategy</h3>
+                                <p class="p service-item-paragraph secondary-black fw-400 line-height-7">
+                                    Hen our power of choice is untrammelled and when nothing prevents our being able
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- end services -->
+        <!-- start resume -->
+        <section id="resume" class="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="resume-wrapper">
+                            <div class="section-heading-middle">
+                                <div class="sub-heading d-flex align-items-center mx-auto">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>My Resume</p>
+                                </div>
+                                <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                    4+ YEARS OF EXPERIENCE
+                                </h2>
+                            </div>
+                            <div class="row mt-50 row-mobile-margin">
+                                <div class="col-12 col-lg-2">
+                                    <div
+                                        class="resume-topics h-100 flex-column justify-content-center position-relative">
+                                        <h3
+                                            class="h3 line-height-3 resume-topic-item resume-topic-one fw-500 text-black position-absolute">
+                                            Education</h3>
+                                        <h3
+                                            class="h3 line-height-3 resume-topic-item resume-topic-two fw-500 text-black position-absolute">
+                                            Skills
+                                        </h3>
+                                        <h3
+                                            class="h3 line-height-3 resume-topic-item resume-topic-three fw-500 text-black position-absolute">
+                                            Experience</h3>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-10">
+                                    <!-- resume education row -->
+                                    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                                        class="resume-education bg-white">
+                                        <div class="row">
+                                            <!-- education first column -->
+                                            <div class="col-lg-4 resume-first-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    BE in Computer Science
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    University of Mumbai (2021)
+                                                </p>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    Theem College of Engineering, Boisar
+                                                </p>
+                                            </div>
+                                            <!-- education second column -->
+                                            <div class="col-lg-4 resume-second-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                   <!-- Higher Secondary Certificate  -->
+                                                   HSC
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    Maharashtra Board (2017)
+                                                </p>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    BSES Junior College, Dahanu
+                                                </p>
+                                            </div>
+                                            <!-- education third column -->
+                                            <div class="col-lg-4 resume-third-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    <!-- Secondary School Certificate -->
+                                                    SSC
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    Maharashtra Board (2015)
+                                                </p>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    A.J.M.M.V School, Dahanu
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- resume skills row -->
+                                    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
+                                        class="resume-skills bg-white mt-4">
+                                        <div class="row">
+                                            <!-- skills first column -->
+                                            <div class="col-lg-4 resume-first-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                   Frontend
+                                                </h4>
+                                                <div class="row mt-10 justify-content-between">
+                                                    <p
+                                                        class="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
+                                                        Html
+                                                    </p>
+                                                    <p class="col-2 p secondary-black fw-400 line-height-7">
+                                                        87%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        Css
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        85%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        Bootstrap
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        90%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        Javascript / jQuery
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        80%
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- skills second column -->
+                                            <div class="col-lg-4 resume-second-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                   Backend
+                                                </h4>
+                                                <div class="row mt-10 justify-content-between">
+                                                    <p
+                                                        class="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
+                                                        PHP
+                                                    </p>
+                                                    <p class="col-2 p secondary-black fw-400 line-height-7">
+                                                        86%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        CodeIgniter
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        89%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        MYSQL
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        88%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        Rest API
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        85%
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!-- skills thirdt column -->
+                                            <div class="col-lg-4 resume-third-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                   Other skills
+                                                </h4>
+                                                <div class="row mt-10 justify-content-between">
+                                                    <p
+                                                        class="col-10 p secondary-black fw-400 line-height-7 skill-name position-relative">
+                                                        WordPress
+                                                    </p>
+                                                    <p class="col-2 p secondary-black fw-400 line-height-7">
+                                                        80%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        SEO
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        82%
+                                                    </p>
+                                                </div>
+                                                <div class="row justify-content-between mt-10">
+                                                    <p
+                                                        class="p secondary-black fw-400 line-height-7 col-10 skill-name position-relative">
+                                                        Website Speed Optimization
+                                                    </p>
+                                                    <p class="p col-2 secondary-black fw-400 line-height-7">
+                                                        85%
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- resume experience row -->
+                                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="800"
+                                        class="resume-education mt-4 bg-white">
+                                        <div class="row">
+                                            <!-- experience first column -->
+                                            <div class="col-lg-4 resume-first-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    Web Developer 
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                   Tagz and Talezz - (2024 - 2026)
+                                                </p>
+                                                <!-- <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    Pomnis voluptas assumenda est, omnis dolor repellendus.
+                                                </p> -->
+                                            </div>
+                                            <!-- experience second column -->
+                                            <div class="col-lg-4 resume-second-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    Web Developer 
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                   Magical Balloons - (2022 - 2023)
+                                                </p>
+                                                <!-- <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    Pomnis voluptas assumenda est, omnis dolor repellendus.
+                                                </p> -->
+                                            </div>
+                                            <!-- experience third column -->
+                                            <div class="col-lg-4 resume-third-item">
+                                                <h4 class="h4 text-black fw-500">
+                                                    Web Developer 
+                                                </h4>
+                                                <p class="p secondary-black fw-400 line-height-7 mt-10">
+                                                    Solution Cone - (2022)
+                                                </p>
+                                                <!-- <p class="p secondary-black fw-400 line-height-7 mt-20">
+                                                    Pomnis voluptas assumenda est, omnis dolor repellendus.
+                                                </p> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end resume -->
+      
+        <!-- start portfolio gallery -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="portfolio-wrapper">
+                            <div class="section-heading-middle">
+                                <div class="sub-heading d-flex align-items-center mx-auto">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>My Portfolio</p>
+                                </div>
+                                <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                    VISIT MY PORTFOLIO
+                                </h2>
+                            </div>
+                           
+                            <!-- portfolio -->
+                              <div class="container">
+          
+        
+                <div class='row text-center'>
+                    
+
+                    
+
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://www.shreelaxmiengservices.com/" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/shreelaxmi_engineering.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+       
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://onepointbrandcommunication.com/tnt_demo/kmsi" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/kmsi.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+       
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://www.rgpl.in/" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/rgpl.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://onepointbrandcommunication.com/tnt_demo/alcovaindia" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/alcova.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://guardwel.com/" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/gurdwel.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://madamagro.com/" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/madam_agro.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://xcut.in/" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/xcut.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://kttpharmatech.com/" target='_blank' rel="nofollow">                                                        
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/ktt.png');">
+                                    </div>
+                                </div>   
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                             <a href="https://streamdesignspvtltd.com/" target='_blank' rel="nofollow">                                                       
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/stream_desing.png');">
+                                    </div>
+                                </div> 
+                            </a>   
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://metavisiontechnology.com/" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/metavision.png');">
+                                    </div>
+                                </div>   
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                             <a href="https://www.aneyafoundries.com/" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/afpl.png');">
+                                    </div>
+                                </div>   
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://ajexports.co/" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/ajexport.png');">
+                                    </div>
+                                </div>   
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://www.autopack.co.in/" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/autopack.png');">
+                                    </div>
+                                </div>   
+                            </a> 
+                        </div>
+                    </div>
+                </div> -->
+               
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                             <a href="https://kanzkitchens.com/" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/kanz.png');">
+                                    </div>
+                                </div>   
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                            <a href="https://onepointbrandcommunication.com/" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/opbc.png');">
+                                    </div>
+                                </div>   
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-container col-md-4 col-lg-4">
+                    <div class="project-one__single-img">
+                        <div class="overlay-btn">
+                             <a href="https://ultrapurittechnologies.com/index.html" target='_blank' rel="nofollow">                                
+                                <div class="phone">
+                                    <div class="screen" style="background-image:url('assets/web/ultrpurate.png');">
+                                    </div>
+                                </div>   
+                            </a>   
+                        </div>
+                    </div>
+                </div>
+               
+
+                <!-- <div class='col-md-12 text-center'> 
+                    <div class="load-more-btn text-center">
+                        <button class="btn btn-secondary " id="load-more-btn">Load More</button>
+                    </div>
+                </div> -->
+                   
+
+                <!-- DSFASDFASDF -->
+
+                      
+                    <!-- / -->
+                </div>
+            </div>
+                            <!-- portfolio -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end portfolio gallery -->
+        <!-- start partners -->
+        <section class="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="partners-wrapper">
+                            <div class="section-heading-middle">
+                               
+                                <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                   TECHNOLOGIES
+                                </h2>
+                            </div>
+                            <div class="partner-list-container row-mobile-margin mt-50">
+                                <div class="owl-carousel owl-theme">
+                                   
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/1.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/2.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/3.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/4.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/5.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/6.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/7.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/8.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="partner-card">
+                                            <img class="text-center img-fluid partner-img" src="assets/logos/9.png"
+                                                alt="partner-image">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end partners -->
+     
+        <!-- start contact -->
+        <section id="contact" class="home-contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="home-contact-wrapper">
+                            <div class="section-heading-middle">
+                                <div class="sub-heading d-flex align-items-center mx-auto">
+                                    <img src="img/orangeDot.png" alt="orange-dot">
+                                    <p>My Contact</p>
+                                </div>
+                                <h2 class="black-color line-height-3 h2 text-uppercase text-center">
+                                    I WANT TO HEAR FROM YOU
+                                </h2>
+                            </div>
+                            <div class="home-contact-info-container row row-mobile-margin mt-50 align-items-start">
+                                <div class="col-12 col-md-8">
+                                    <form action='mail.php' method='post' >
+                                        <div class="row g-4">
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text" name='name' class="form-control home-contact-input"
+                                                    placeholder="Your Name">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="email" name='email' class="form-control home-contact-input"
+                                                    placeholder="Your Email">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="tel" name='phone' class="form-control home-contact-input"
+                                                    placeholder="Your phone">
+                                            </div>
+                                            <div class="col-12 col-sm-6">
+                                                <input type="text"  name='subject' class="form-control home-contact-input"
+                                                    placeholder="Subject">
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea placeholder="Message"
+                                                    class="form-control home-contact-input" name='message' ></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="col-12">
+                                                    <button type="submit"
+                                                        class="btn orange-btn btn_effect row-mobile-margin mt-30"><span
+                                                            class="z-1 position-relative">Send Me
+                                                            Message</span></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-12 col-md-4 home-contact-icon-container">
+                                    <div class="row row-mobile-margin gy-3 gy-sm-0">
+                                        <div class="col-12 d-flex align-items-center">
+                                            <div class="mr-10">
+                                                <div class="light-orange-bg-icon">
+                                                    <i class="fa-solid fa-location-dot orange-color"></i>
+                                                </div>
+                                            </div>
+                                            <div class="about-complete-project">
+                                                <h4 class="fw-500 black-color h4">Address</h4>
+                                                <p class="fw-400 secondary-black">
+                                                    <a href="geo:377749">
+                                                       Dist - Palghar, Tal - Dahanu
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex align-items-center row-mobile-margin mt-50">
+                                            <div class="mr-10">
+                                                <div class="light-orange-bg-icon">
+                                                    <i class="fa-solid fa-phone-volume orange-color"></i>
+                                                </div>
+                                            </div>
+                                            <div class="about-years-experience">
+                                                <h4 class="fw-500 black-color h4">Phone</h4>
+                                                <p class="fw-400 secondary-black">
+                                                    <a href="tel:8698589823">+91 8698589823</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex align-items-center row-mobile-margin mt-50">
+                                            <div class="mr-10">
+                                                <div class="light-orange-bg-icon">
+                                                    <i class="fa-solid fa-envelope orange-color"></i>
+                                                </div>
+                                            </div>
+                                            <div class="about-years-experience">
+                                                <h4 class="fw-500 black-color h4">Email</h4>
+                                                <p class="fw-400 secondary-black">
+                                                    <a href="mailto:ankitthakur0504@gmail.com">
+                                                        ankitthakur0504@gmail.com
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+        <!-- start footer -->
+        <section class="footer">
+            <div class="footer-wrapper">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
+                                <div class="footer-col-one">
+                                    <div class='footer-white-logo'>
+                                        <img src="assets/footer_logo.png" class="footer-logo" alt="footer logo" width='100'>
+                                    </div>
+                                    
+                                    <p class="p text-white line-height-7 mb-30 footer-col-one-texts">
+                                       I build modern, responsive and SEO-friendly websites using PHP, CodeIgniter, WordPress, JavaScript and MySQL. I help businesses create fast, secure and user-friendly web solutions.
+                                    </p>
+                                       <div class="footer-social-media">
+                                    <ul class="footer-social-container11 d-flex align-items-center mb-35">
+                                         <li class="footer-social-item-2">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-linkedin text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="footer-social-item-2">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-instagram text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="footer-social-item-2 mt-0">
+                                            <a href="">
+                                                <div class="orange-bg-icon">
+                                                    <i class="fa-brands fa-facebook-f text-white h4"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        
+                                       
+                                       
+                                    </ul>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-lg-2 mt-5 mt-lg-0">
+                                <h4 class="h4 fw-500 text-white">
+                                    Explore Link
+                                </h4>
+                                <div class="footer-col-links">
+                                    <ul class="footer-col-link-container">
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#about">About</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#resume">Resume</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#portfolio">Portfolio</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#contact">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-lg-2 mt-5 mt-lg-0">
+                                <h4 class="h4 fw-500 text-white">
+                                    My Services
+                                </h4>
+                                <div class="footer-col-links">
+                                    <ul class="footer-col-link-container">
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#services">Website Development</a>
+                                        </li>
+                                      
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#services">E-commerce Website</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#services">Website Maintenance</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#services">SEO Optimization</a>
+                                        </li>
+                                        <li class="footer-link-item">
+                                            <a class="fw-400 p line-height-7 text-white" href="#services">Speed Optimization</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
+                                <h4 class="h4 fw-500 text-white">
+                                  Contact
+                                </h4>
+                             
+
+                                <div class="footer-contact pt-5">
+                                    <div class="footer-contact-item d-flex align-items-center mb-20">
+                                        <i class="fa-solid fa-location-dot footer-contact-icon mr-10 orange-color"></i>
+                                        <p class="p text-white line-height-7 fw-400">
+                                            Palghar, Dahanu, Maharashtra, India
+                                        </p>
+                                    </div>
+                                    <div class="footer-contact-item d-flex align-items-center mb-20">
+                                        <i class="fa-solid fa-phone-volume footer-contact-icon mr-10 orange-color"></i>
+                                        <p class="p text-white line-height-7 fw-400">
+                                           +91 8698589823
+                                        </p>
+                                    </div>
+                                    <div class="footer-contact-item d-flex align-items-center mb-20">
+                                        <i class="fa-solid fa-envelope footer-contact-icon mr-10 orange-color"></i>
+                                        <p class="p text-white line-height-7 fw-400">
+                                          ankitthakur0504@gmail.com
+                                        </p>
+                                    </div>
+                                    <div class="footer-contact-item d-flex align-items-center mb-20">
+                                        <i class="fa-solid fa-regular fa-clock footer-contact-icon mr-10 orange-color"></i>
+                                        <p class="p text-white line-height-7 fw-400">
+                                         Available for Freelance & Full-time
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="footer-bottom-container">
+                            <div class="row ">
+                                <div class="footerbottom-left col-12  text-center">
+                                    <p class="p text-white line-height-7">
+                                    &copy; 2026 Designed & Developed by Ankit Thakur.
+                                   
+                                    </p>
+                                </div>
+                                <!-- <div class="footerbottom-right col-12 col-sm-7 col-md-6">
+                                    <ul class="d-flex justify-content-sm-end">
+                                        <li class="mr-100">
+                                            <a class="text-white p" href="termsandconditions.html">
+                                                Terms & Condition
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="text-white p" href="privacypolicy.html">
+                                                Privacy policy
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end footer -->
+    </main>
+    <!-- Preloader -->
+    <div class="loader-mask">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Jquery script -->
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Magnific-popup script -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Owl carousel script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- MeanMenu script -->
+    <script src="js/jquery.meanmenu.js"></script>
+    <!-- Line progressbar script -->
+    <script src="js/jquery.lineProgressbar.js"></script>
+    <!-- Multi animated counter -->
+    <script src="js/multi-animated-counter.js"></script>
+    <!-- One page nav script -->
+    <script src="js/onepageNav.js"></script>
+    <!-- font awesome script -->
+    <script src="js/all.min.js"></script>
+    <!-- AOS script -->
+    <script src="js/aos.js"></script>
+    <!-- Animated headline script -->
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <!-- mixitup -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- jQuery Counterup -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Main JS script -->
+    <script src="js/main.js"></script>
+
+    <script>
+        $(window).on("scroll", function () {
+
+            if ($(this).scrollTop() > 100) {
+                $(".header").addClass("sticky");
+            } else {
+                $(".header").removeClass("sticky");
+            }
+
+        });
+    </script>
+</body>
+</html>
